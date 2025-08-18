@@ -1,1 +1,1 @@
-# Multimodal-RAG-PDF-s-
+# Multimodal-RAG-PDF(s)
