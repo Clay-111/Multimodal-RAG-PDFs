@@ -9,10 +9,10 @@ from pinecone import Pinecone, ServerlessSpec
 # -------------------------
 # ⚠️ API KEYS & MODELS 
 # -------------------------
-GOOGLE_API_KEY_MAIN = "AIzaSyDaWk_DZqXwQDCBX4iaddu-250lRmDK0Ho"  # LLM API used for configure() and QA chain
-GOOGLE_API_KEY_SECOND = "AIzaSyDaWk_DZqXwQDCBX4iaddu-250lRmDK0Ho"  # VLM API used in multi_image_query
-GEMINI_VLM_MODEL_NAME = "gemini-2.5-pro"                            # VLM via VLM API 
-GEMINI_TEXT_MODEL_NAME = "models/gemini-2.5-pro"  # LLM via LLM API
+GOOGLE_API_KEY_MAIN = "YOUR_GEMINI_LLM_API_KEY"  # LLM API used for configure() and QA chain
+GOOGLE_API_KEY_SECOND = "YOUR_GEMINI_VLM_API_KEY"  # VLM API used in multi_image_query
+GEMINI_VLM_MODEL_NAME = "YOUR_GEMINI_VLM_MODEL_NAME"  # VLM via VLM API || Example - (gemini-2.5-pro)
+GEMINI_TEXT_MODEL_NAME = "YOUR_GEMINI_LLM_MODEL_NAME"  # LLM via LLM API || Example - (gemini-2.5-pro)
 EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-large"  # Embedding model
 
 # Configure Google Generative AI
@@ -20,8 +20,8 @@ configure(api_key=GOOGLE_API_KEY_MAIN)
 VISION_MODEL = GenerativeModel(GEMINI_VLM_MODEL_NAME)
 
 # PineconeDB v2 configuration
-PINECONE_API_KEY = "pcsk_4FNN28_3BsvDSQeCVP3SeCbkBNE78Y3Q4aX4D5RFqm7iaL4hGabRGvb1FQzDaE38HH5dAb" # change as needed
-INDEX_NAME = "rag" # change as needed
+PINECONE_API_KEY = "YOUR_PineConeDB_API" # change as needed
+INDEX_NAME = "YOUR_PineConeDB_index_name" # change as needed
 
 os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
 pc = Pinecone(api_key=os.environ["PINECONE_API_KEY"])
