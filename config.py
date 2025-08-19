@@ -13,7 +13,7 @@ GOOGLE_API_KEY_MAIN = "YOUR_GEMINI_LLM_API_KEY"  # LLM API used for configure() 
 GOOGLE_API_KEY_SECOND = "YOUR_GEMINI_VLM_API_KEY"  # VLM API used in multi_image_query
 GEMINI_VLM_MODEL_NAME = "YOUR_GEMINI_VLM_MODEL_NAME"  # VLM via VLM API || Example - (gemini-2.5-pro)
 GEMINI_TEXT_MODEL_NAME = "YOUR_GEMINI_LLM_MODEL_NAME"  # LLM via LLM API || Example - (gemini-2.5-pro)
-EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-large"  # Change the Embedding model as needed
+EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-large"  # Change the Embedding model as needed || Refer to retrieval/embeddings.py
 
 # Configure Google Generative AI
 configure(api_key=GOOGLE_API_KEY_MAIN)
