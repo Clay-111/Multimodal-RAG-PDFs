@@ -1,0 +1,32 @@
+# ------------------------
+# Streamlit UI
+# ------------------------
+streamlit==1.26.1
+
+# ------------------------
+# PDF / OCR
+# ------------------------
+PyMuPDF==1.26.0
+pytesseract==0.3.12
+pdf2image==1.17.0
+Pillow==10.1.0
+
+# ------------------------
+# LangChain + Google Gemini
+# ------------------------
+langchain==1.0.0
+langchain-google-genai==0.0.16
+google-generativeai==0.1.8
+
+# ------------------------
+# Embeddings and Vector DB
+# ------------------------
+pinecone-client==2.2.1
+transformers==4.35.0
+torch==2.1.0
+sentence-transformers==2.2.2
+
+# ------------------------
+# Utilities
+# ------------------------
+pydantic==2.1.1
