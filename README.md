@@ -5,8 +5,11 @@ This project allows you to upload Bangla/English PDFs, extract **text + images**
 All extracted information is chunked, embedded, stored in **Pinecone**, and retrieved to power **LLM-based Q&A**.
 
 ---
+# ⏩ Video Explanation
 
-⏩ For more details, refer to the [Explanation Video.mp4](English_Bangla_PDF_Example.mp4).
+⏩ Live Video Link: https://youtu.be/BMsZLLyWoKg
+
+⏩ Download the video here: [Explanation Video.mp4](English_Bangla_PDF_Example.mp4).
 
 ---
 
