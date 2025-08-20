@@ -1,10 +1,7 @@
 # 📖 Multimodal RAG Pipeline for PDF(s)
 
-A **multimodal Retrieval-Augmented Generation (RAG)** system built with **Streamlit**, **LangChain**, **Pinecone**, and **Google Gemini (Text + Vision models)**.  
-This project allows you to upload Bangla/English PDFs, extract **text + images**, run **OCR** on both, and enrich images with **vision-language models (VLMs)** to generate descriptions.  
-All extracted information is chunked, embedded, stored in **Pinecone**, and retrieved to power **LLM-based Q&A**.
-
 ---
+
 # ⏩ Video Explanation
 
 ⏩ Live Video Link: https://youtu.be/BMsZLLyWoKg
@@ -14,6 +11,11 @@ All extracted information is chunked, embedded, stored in **Pinecone**, and retr
 ---
 
 ## 🚀 Project Overview
+
+A **multimodal Retrieval-Augmented Generation (RAG)** system built with **Streamlit**, **LangChain**, **Pinecone**, and **Google Gemini (Text + Vision models)**.  
+This project allows you to upload Bangla/English PDFs, extract **text + images**, run **OCR** on both, and enrich images with **vision-language models (VLMs)** to generate descriptions.  
+All extracted information is chunked, embedded, stored in **Pinecone**, and retrieved to power **LLM-based Q&A**.
+
 
 - Extracts **text & images** from PDFs (via `PyMuPDF` + `pdf2image` + `pytesseractOCR`).
 - Generates **descriptions for images** using **Gemini Vision model**.
