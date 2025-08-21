@@ -4,7 +4,7 @@
 
 # ⏩ Video Explanation
 
-⏩ Live Video Link: https://youtu.be/BMsZLLyWoKg
+⏩ Demo Video Link: https://youtu.be/BMsZLLyWoKg
 
 ⏩ Download the video here: [Explanation Video.mp4](English_Bangla_PDF_Example.mp4).
 
