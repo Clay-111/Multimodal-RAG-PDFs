@@ -10,6 +10,10 @@
 
 ---
 
+![Demo of Multimodal-RAG](demo.gif)
+
+---
+
 ## 🚀 Project Overview
 
 A **multimodal Retrieval-Augmented Generation (RAG)** system built with **Streamlit**, **LangChain**, **Pinecone**, and **Google Gemini (Text + Vision models)**.  
