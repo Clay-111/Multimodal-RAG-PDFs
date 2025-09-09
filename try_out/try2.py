@@ -19,11 +19,11 @@ import json
 
 # ===================== CONFIG =====================
 # Google Gemini
-configure(api_key="AIzaSyAd6S5K4OVMs4bXTd5eUjDijUYl07KpCQ0")
+configure(api_key="")
 vision_model = GenerativeModel("gemini-2.5-pro")
 
 # Pinecone v2
-os.environ["PINECONE_API_KEY"] = "pcsk_4FNN28_3BsvDSQeCVP3SeCbkBNE78Y3Q4aX4D5RFqm7iaL4hGabRGvb1FQzDaE38HH5dAb"
+os.environ["PINECONE_API_KEY"] = ""
 index_name = "rag1"
 pc = Pinecone(api_key=os.environ["PINECONE_API_KEY"])
 
@@ -174,7 +174,7 @@ def build_qa_chain(_embedder):
     qa = RetrievalQA.from_chain_type(
         llm=ChatGoogleGenerativeAI(
             model="models/gemini-2.5-pro",
-            google_api_key="AIzaSyAd6S5K4OVMs4bXTd5eUjDijUYl07KpCQ0"
+            google_api_key=""
         ),
         retriever=retriever,
         return_source_documents=True
@@ -234,7 +234,7 @@ No specific image
 """
 
     llm = ChatGoogleGenerativeAI(model="models/gemini-2.5-pro",
-                                 google_api_key="AIzaSyClCdy7w3c3fOeeL2wQUMWaCKfmAPgczeM")
+                                 google_api_key="")
     try:
         response = llm.predict(prompt)
         text = response.strip()
