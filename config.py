@@ -1,6 +1,6 @@
-# =========================
+# ==========================
 # File: config.py
-# =========================
+# ==========================
 
 import os
 from google.generativeai import configure, GenerativeModel
