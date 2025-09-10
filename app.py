@@ -1,6 +1,6 @@
-# =========================
+# ==========================
 # File: app.py
-# =========================
+# ==========================
 
 import streamlit as st
 from processing.pipeline import process_pdf
