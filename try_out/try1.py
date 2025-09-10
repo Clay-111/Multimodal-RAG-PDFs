@@ -19,7 +19,7 @@ import json
 import uuid  # ✅ For unique PDF IDs
 
 # ===================== CONFIG =====================
-# Google Gemini
+# Google Gemini.
 configure(api_key="")
 vision_model = GenerativeModel("gemini-2.5-pro")
 
