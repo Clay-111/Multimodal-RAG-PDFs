@@ -276,7 +276,7 @@ def run_streamlit_app(pdf_data, pdf_name):
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []  # Each element: {"question": ..., "answer": ...}
 
-    # Show all preprocessed chunks
+    # Show all preprocessed chunks on UI
     with st.expander("🔎 Show Preprocessed Text Chunks"):
         for i, chunk in enumerate(pdf_data["all_chunks"]):
             label = f"**{chunk.metadata.get('type').capitalize()} Chunk {i}:**"
