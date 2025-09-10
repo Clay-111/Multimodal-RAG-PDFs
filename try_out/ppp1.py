@@ -1,6 +1,6 @@
 # Bangla/English PDF RAG Pipeline with Streamlit PDF Upload
 # Uses OCR to convert the pages into images and for text extraction from those images in the PDF
-# Uses VLM to generate Image descriptions
+# Uses VLM to generate Image descriptions.
 # Includes: Extraction, Cleaning, Chunking, Embedding, Vector Store, QA (Langchain + Streamlit)
 # Entire PDF preprocessing and chunking (without metadata)
 
