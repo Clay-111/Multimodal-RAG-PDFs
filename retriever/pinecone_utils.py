@@ -4,7 +4,6 @@
 
 from config import INDEX
 
-
 def upsert_to_pinecone(docs, embedder):
     vectors = []
     for doc in docs:
