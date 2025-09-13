@@ -17,7 +17,7 @@ from langchain.schema import BaseRetriever
 from pydantic import PrivateAttr
 import json
 
-# ===================== CONFIG =====================
+# ==================== CONFIG ====================
 # Google Gemini
 configure(api_key="")
 vision_model = GenerativeModel("gemini-2.5-pro")
