@@ -20,7 +20,7 @@ from pdf2image import convert_from_bytes
 from google.generativeai import configure, GenerativeModel
 from langchain.docstore.document import Document
 
-# Configure Google API for Gemini Vision
+# Configure Google API for Gemini Vision Model
 configure(api_key="")
 vision_model = GenerativeModel("gemini-2.5-pro")  # Vision-capable model
 
