@@ -1,5 +1,5 @@
 # 📖 Multimodal RAG Pipeline for PDF(s)
-sss
+
 ---
 
 # ⏩ Video Explanation
